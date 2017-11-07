@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lecture9-frameworks</string>
+    <string name="demo_string">Demo string</string>
+    <string name="launch_butter_activity">Butter Activity</string>
+    <string name="launch_list_activity">List Activity</string>
+    <string name="toast">This message was obtained via ButterKnife injection!</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="dp_to_px">%1$d dp = %2$d px</string>
+</resources>
