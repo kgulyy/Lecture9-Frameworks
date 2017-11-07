@@ -1,6 +1,7 @@
 ### ButterKnife
 
 [Getting Started](http://jakewharton.github.io/butterknife/)
+
 [GitHub](https://github.com/JakeWharton/butterknife)
 
 Подключение
@@ -14,7 +15,9 @@ dependencies {
 ### Dagger 2
 
 [Documentation](https://google.github.io/dagger/)
+
 [GitHub](https://github.com/google/dagger)
+
 [Неплохая статья на Хабре](https://habrahabr.ru/post/279125/)
 
 Подключение
