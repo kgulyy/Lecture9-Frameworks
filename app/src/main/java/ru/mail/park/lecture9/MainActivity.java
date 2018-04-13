@@ -13,6 +13,7 @@ import butterknife.OnClick;
 import ru.mail.park.lecture9.injection.DemoInstance;
 import ru.mail.park.lecture9.injection.DemoSingleton;
 import ru.mail.park.lecture9.injection.StringUtils;
+import ru.mail.park.lecture9.task.TaskFirstActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.launch_list)
     void onLaunchListClick() {
         final Intent intent = new Intent(this, ListActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.launch_task)
+    void onLaunchTaskFirstClick() {
+        final Intent intent = new Intent(this, TaskFirstActivity.class);
         startActivity(intent);
     }
 }

@@ -28,4 +28,10 @@
         android:layout_height="wrap_content"
         android:text="@string/launch_list_activity"/>
 
+    <Button
+        android:id="@+id/launch_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launch_task_activity"/>
+
 </LinearLayout>

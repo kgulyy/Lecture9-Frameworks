@@ -3,7 +3,10 @@
     <string name="demo_string">Demo string</string>
     <string name="launch_butter_activity">Butter Activity</string>
     <string name="launch_list_activity">List Activity</string>
+    <string name="launch_task_activity">Task Activity</string>
     <string name="toast">This message was obtained via ButterKnife injection!</string>
     <string name="show_toast">Show Toast</string>
+    <string name="go_to_first_activity">Go to first activity!</string>
+    <string name="go_to_second_activity">Go to second activity!</string>
     <string name="dp_to_px">%1$d dp = %2$d px</string>
 </resources>
