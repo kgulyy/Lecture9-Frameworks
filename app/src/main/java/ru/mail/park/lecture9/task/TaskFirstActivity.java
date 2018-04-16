@@ -11,7 +11,6 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.OnTextChanged;
 import ru.mail.park.lecture9.App;
 import ru.mail.park.lecture9.R;
 
@@ -38,14 +37,12 @@ public class TaskFirstActivity extends AppCompatActivity {
         secondInput.setText(taskSingleton.getSecondText());
     }
 
-    @OnTextChanged(R.id.first_input)
-    void onFirstInputChanged(final CharSequence text) {
-        taskSingleton.setFirstText(text.toString());
-    }
+    @Override
+    protected void onPause() {
+        super.onPause();
 
-    @OnTextChanged(R.id.second_input)
-    void onSecondInputChanged(final CharSequence text) {
-        taskSingleton.setSecondText(text.toString());
+        taskSingleton.setFirstText(firstInput.getText().toString());
+        taskSingleton.setSecondText(secondInput.getText().toString());
     }
 
     @OnClick(R.id.open_second_view)
